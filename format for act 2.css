@@ -1,0 +1,107 @@
+	p.red{
+		padding: 10px 5px;
+		color: #DC143C;
+		font-family: Helvetica;
+		font-weight: bold;
+		font-size: 20px;
+}
+	p.red:hover{
+		background-color: #8F00FF;
+}
+
+
+
+
+
+	p.orange{
+		padding: 10px 5px;
+		color: #FFA500;
+		font-family: Comic Sans MS;
+		font-weight: bold;
+		font-size: 20px;
+}
+	p.orange:hover{
+		background-color: #4B0082;
+}
+
+
+
+
+
+	p.yellow{
+		padding: 10px 5px;
+		color: #FFFF00;
+		font-family: Verdana;
+		font-weight: bold;
+		font-size: 20px;
+}
+	p.yellow:hover{
+		background-color: #0000FF;
+}
+
+
+
+
+
+	p.green{
+		padding: 10px 5px;
+		color: #00FF00;
+		font-family: Tahoma;
+		font-weight: bold;
+		font-size: 20px;
+}
+	p.green:hover{
+		background-color: #4F7942;
+}
+
+
+
+
+
+	p.blue{
+		padding: 10px 5px;
+		color: #0000FF;
+		font-family: Trebuchet MS;
+		font-weight: bold;
+		font-size: 20px;
+}
+	p.blue:hover{
+		background-color: #FFFF00;
+}
+
+
+
+
+
+	p.indigo{
+		padding: 10px 5px;
+		color: #4B0082;
+		font-family: Georgia;
+		font-weight: bold;
+		font-size: 20px;
+}
+	p.indigo:hover{
+		background-color: #FFA500;
+}
+
+
+
+
+
+	p.violet{
+		padding: 10px 5px;
+		color: #8F00FF;
+		font-family: Courier New;
+		font-weight: bold;
+		font-size: 20px;
+}
+	p.violet:hover{
+		background-color: #DC143C;
+}
+
+
+	p:hover::first-letter {
+		text-transform:lowercase;
+		font-weight: bold;
+		font-size: 20px;
+}	
